@@ -96,17 +96,9 @@ public class ExamSchedule {
     }
 
     void createSchedule(ExamSchedule eV){
-        subjects1:
-        for(int k = 0; k < subjectList.length; k++){
-            if(eV.checkAlreadyPlotted(subjectList[k])){
-                threeweeks1:
-                for(int i = 0; i < threeWeeks.length; i++){
-                    threeweeks2:
-                    for(int j = 1; j < threeWeeks[0].length; j++){
-                        
-                    }
-                }
-            }
+        loop1:
+        for(int i = 0; i < threeWeeks.length; i++){
+            ;
         }
     }
 
